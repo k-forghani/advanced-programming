@@ -1,0 +1,1 @@
+print(*[x for i, x in enumerate(input().split()) if int(x) % 6 == 0 and (i + 1) % 6 == 0], sep = "\n")
